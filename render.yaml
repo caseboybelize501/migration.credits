@@ -1,0 +1,13 @@
+services:
+
+  - type: web
+    name: web-service
+    env: node
+    buildCommand: npm install
+    startCommand: npm run start
+
+  - type: worker
+    name: worker-service
+    env: node
+    buildCommand: npm install
+    startCommand: npm run worker

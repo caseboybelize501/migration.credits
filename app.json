@@ -1,0 +1,7 @@
+{
+  "name": "migration.credits",
+  "description": "Heroku deployment configuration",
+  "repository": "auto-detected",
+  "keywords": ["node","api","saas"],
+  "env": {}
+}
